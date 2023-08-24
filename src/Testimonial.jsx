@@ -12,4 +12,4 @@ function Testimonial(){
        </>  
     );
 }
-export default Testimonial;
+export default Testimonial; 

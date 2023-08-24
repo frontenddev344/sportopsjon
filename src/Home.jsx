@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Homecart from "./Productcart";
+import Testimonial from "./Testimonial";
+
 
 
 function Home() {
@@ -9,6 +11,7 @@ function Home() {
          <Header />
          <Homecart />
          <Testimonial />
+
         </>
     );
 }
