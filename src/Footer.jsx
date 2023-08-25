@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 
 function Footer() {
@@ -43,7 +44,7 @@ function Footer() {
                                 </li>
                                 <li>
                                     <a href="">
-                                        <FaInstagram />
+                                        <FaTwitter />
                                     </a>
                                 </li>
                             </ul>
