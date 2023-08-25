@@ -1,15 +1,27 @@
 import React from "react";
-import Testimodata from "./Testimodata";
+import { GrBlockQuote } from "react-icons/gr";
+import { FaStar } from "react-icons/fa";
 
-function Testimonial(){
-    return(
-       <>
-         <section className="textimonialWrapper">
-            <div className="container">
-                 <Testimodata />
+function Testimonial(props) {
+   return (
+      <>
+         <div className="testy-main-wrapper">
+            <div className="collumss">
+               <GrBlockQuote />
             </div>
-         </section>
-       </>  
-    );
+            <p> {props.data} </p>
+            <div className="icons">
+               <FaStar />
+               <FaStar />
+               <FaStar />
+               <FaStar />
+               <FaStar />
+            </div>
+            <div className="client-nm">
+               <h4>Sally Olsen</h4>
+            </div>
+         </div>
+      </>
+   );
 }
 export default Testimonial; 

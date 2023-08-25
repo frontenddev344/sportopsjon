@@ -23,7 +23,7 @@ function Header() {
                                     FITNESS
                                 </li>
                                 <li>
-                                    TOP ELADÓK d
+                                    TOP ELADÓK
                                 </li>
                             </ul>
                         </div>
